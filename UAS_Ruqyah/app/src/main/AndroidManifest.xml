@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.uas_ruqyah">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logosplashjra"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logosplashjra"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".intro_aplikasi.SplashScreenActivity"
+            android:theme="@style/SplashScreenTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".intro_aplikasi.IntroSliderActivity" android:theme="@style/IntroSliderTheme"/>
+        <activity android:name=".login_dan_register.LoginActivity" android:theme="@style/LoginTheme"/>
+        <activity android:name=".login_dan_register.RegistrasiActivity" android:theme="@style/RegistrasiTheme"/>
+        <activity android:name=".halaman_utama.MainActivity"/>
+        <activity android:name=".halaman_utama.PeruqyahActivity"/>
+        <activity android:name=".halaman_utama.HistoryOrderActivity"/>
+        <activity android:name=".halaman_utama.OrderRuqyahActivity"/>
+        <activity android:name=".halaman_utama.DeskripsiActivity"/>
+    </application>
+
+</manifest>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#FFFFFF"
+    tools:context=".SplashScreenActivity">
+
+    <ImageView
+        android:id="@+id/gambar_logo_splash"
+        android:src="@drawable/logosplashjra"
+        android:layout_centerInParent="true"
+        android:layout_width="35mm"
+        android:layout_height="35mm"/>
+
+    <TextView
+        android:layout_marginTop="3mm"
+        android:id="@+id/tv_selamatdatang"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:text="Selamat Datang"
+        android:layout_below="@id/gambar_logo_splash"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal" />
+
+</RelativeLayout>

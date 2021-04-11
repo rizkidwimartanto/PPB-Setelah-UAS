@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.tugas_akhir_tahap_1">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logosplashjra"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logosplashjra"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".SplashScreenActivity"
+            android:theme="@style/SplashScreenTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".IntroSliderActivity" android:theme="@style/IntroSliderTheme"/>
+        <activity android:name=".LoginActivity" android:theme="@style/LoginTheme"/>
+        <activity android:name=".RegistrasiActivity" android:theme="@style/RegistrasiTheme"/>
+        <activity android:name=".DashboardActivity"/>
+        <activity android:name=".DeskripsiActivity"/>
+    </application>
+
+</manifest>

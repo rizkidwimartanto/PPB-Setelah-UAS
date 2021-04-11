@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Notification-Firebase-Cloud-Messaging</string>
+    <string name="promo">Promo</string>
+    <string name="news">News</string>
+    <string name="show_token">Show Token</string>
+    <string name="token">Token</string>
+</resources>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="#ABF89B"
+    android:layout_gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".halaman_utama.OrderRuqyahActivity">
+
+    <ImageView
+        android:layout_marginTop="10mm"
+        android:layout_gravity="center"
+        android:id="@+id/gambar_layanan"
+        android:src="@drawable/register"
+        android:layout_width="20mm"
+        android:layout_height="20mm"/>
+
+    <TextView
+        android:layout_marginTop="3mm"
+        android:id="@+id/header_layanan"
+        android:text="Daftar Ruqyah"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/tv_namalayanan"
+        android:layout_marginTop="2mm"
+        android:layout_marginLeft="8mm"
+        android:text="Nama"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:inputType="text"
+        android:background="#ffffff"
+        android:id="@+id/et_namalayanan"
+        android:layout_marginTop="2mm"
+        android:layout_marginLeft="8mm"
+        android:layout_marginRight="8mm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/tv_alamatlayanan"
+        android:layout_marginTop="2mm"
+        android:layout_marginLeft="8mm"
+        android:text="Alamat"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:inputType="text"
+        android:background="#ffffff"
+        android:id="@+id/et_alamatlayanan"
+        android:layout_marginTop="2mm"
+        android:layout_marginLeft="8mm"
+        android:layout_marginRight="8mm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/tv_nohplayanan"
+        android:layout_marginTop="2mm"
+        android:layout_marginLeft="8mm"
+        android:text="No Hp"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:inputType="number"
+        android:background="#ffffff"
+        android:id="@+id/et_nohplayanan"
+        android:layout_marginTop="2mm"
+        android:layout_marginLeft="8mm"
+        android:layout_marginRight="8mm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/tv_emaillayanan"
+        android:layout_marginTop="2mm"
+        android:layout_marginLeft="8mm"
+        android:text="Email"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:inputType="text"
+        android:background="#ffffff"
+        android:id="@+id/et_emaillayanan"
+        android:layout_marginTop="2mm"
+        android:layout_marginLeft="8mm"
+        android:layout_marginRight="8mm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:layout_marginLeft="8mm"
+        android:layout_marginRight="8mm"
+        android:id="@+id/btn_order"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="3mm"
+        android:text="Order" />
+</LinearLayout>

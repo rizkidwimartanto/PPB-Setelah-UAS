@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="listID" type="id" />
+    <item name="listNamaMhs" type="id" />
+    <item name="listJenisMhs" type="id" />
+    <item name="listNamaKota" type="id" />
+    <item name="layout_loading" type="id" />
+    <item name="text_load" type="id" />
+    <item name="icon_load" type="id" />
+</resources>
